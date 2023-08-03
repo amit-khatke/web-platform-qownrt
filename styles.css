@@ -1,16 +1,22 @@
+/*.header{
+  background-image: url(https://www.boat-lifestyle.com/cdn/shop/files/AD1412_600x.png?v=1690363019);
+  opacity: 0.5;
+}*/
 .left{
-  
+  position: ;
   border-radius: 30px;
-  margin:200px;
-  padding:10px;
+  margin:20px;
+  padding:1px;
 }
 .mid{
-  border: 2px solid red;
+  color: black;
+  border: 10px solid red;
   display: block;
-  border-radius: 30px;
-  margin: 20px;
-  
-}
+  border-radius: 50px;
+  width: 45%;
+  margin: 10px auto;
+
+  }
 .navbar{
   display: block;
 }
@@ -25,16 +31,20 @@
   padding:5px 5px;
 }
 .right{
-  border:10px solid red;
-  position:static;
+  left: 1200px;
+  top:45px;
+  position:fixed;
+  display: inline-block;
+  
 
 }
 .login{
-  border: 10px solid red;
+  border: 1px solid orange;
+  border-radius: 30px;
 }
 .login:hover{
   color: black;
-  cursor: grab;
-  background-color: red;
+  cursor: pointer;
+  background-color: aqua;
 
 }
