@@ -1,0 +1,40 @@
+.left{
+  
+  border-radius: 30px;
+  margin:200px;
+  padding:10px;
+}
+.mid{
+  border: 2px solid red;
+  display: block;
+  border-radius: 30px;
+  margin: 20px;
+  
+}
+.navbar{
+  display: block;
+}
+.navbar li{
+  display: inline-block;
+}
+.navbar li a{
+  color: red;
+  font-size: 24px;
+  text-decoration: none;
+  margin:20px 20px;
+  padding:5px 5px;
+}
+.right{
+  border:10px solid red;
+  position:static;
+
+}
+.login{
+  border: 10px solid red;
+}
+.login:hover{
+  color: black;
+  cursor: grab;
+  background-color: red;
+
+}
