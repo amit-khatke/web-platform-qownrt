@@ -1,10 +1,11 @@
-/*.header{
-  background-image: url(https://www.boat-lifestyle.com/cdn/shop/files/AD1412_600x.png?v=1690363019);
-   opacity: 0.5; 
-  align-self: center;
-height: 100%;
-width: 100%;
-}*/
+body{
+  border:2px solid red;
+  height: 1700px;
+}
+.header{
+  background-color:aqua;
+  position: sticky;
+}
 .left{
   border-radius: 30px;
   margin:45px 20px;
@@ -12,13 +13,13 @@ width: 100%;
 }
 .mid{
   color: black;
-  border: 10px solid red;
+  /* border: 10px solid red; */
   border-right: 0px;
   border-left:0ch;
   display: block;
   /* border-radius: 5px; */
   width: 50%;
-  margin: 50px auto;
+  margin: 10px auto;
   position:  absolute;
   top:0px;
   left:200px;
@@ -30,21 +31,21 @@ width: 100%;
   display: inline-block;
 }
 .navbar li a{
-  color: red;
+  color: black;
   font-size: 24px;
   text-decoration: none;
   margin:20px 20px;
   padding:5px 5px;
 }
 .right{
-  left: 1200px;
-  top:45px;
-  position:fixed;
+  left: 1150px;
+  top:30px;
+  position:absolute;
   display: inline-block;
-  
-
 }
 .login{
+  height: 25px;
+  width: 70px;
   border: 1px solid orange;
   border-radius: 30px;
 }
@@ -55,8 +56,32 @@ width: 100%;
 }
 .navbar li option{
   display: inline;
+  
 }
-.social span{
+.categories{
+  font-size: 25px;
+}
+.footer{
+  display: flex;
+  border: 2px solid black;
+  position:relative;
+  background-color: yellowgreen;
+  top: 1435px;
+  align-items: center;
+  justify-content: center;
+  padding: 0%;
+  /* flex:0 0 100%; */
+  max-width: 100%;
+}
+.social{
+  display: block;
+}
+.social li{
   display: inline-block;
- justify-content: baseline;
+}
+.social li a{
+  padding: 10px 5px;
+}
+.tsocial{
+  ;
 }
