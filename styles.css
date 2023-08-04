@@ -5,6 +5,7 @@ body{
 .header{
   background-color:aqua;
   position: sticky;
+  
 }
 .left{
   border-radius: 30px;
@@ -81,7 +82,15 @@ body{
 }
 .social li a{
   padding: 10px 5px;
+  transition:all; /* Animation */
+  
+  width: 5px;
+  height: 5px;
+}
+.social li:hover{
+  transform: scale(2);
+  zoom: 3px;
 }
 .tsocial{
-  ;
+  font-family: italic;
 }
