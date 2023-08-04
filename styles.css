@@ -3,19 +3,22 @@
   opacity: 0.5;
 }*/
 .left{
-  position: ;
   border-radius: 30px;
-  margin:20px;
+  margin:45px 20px;
   padding:1px;
 }
 .mid{
   color: black;
   border: 10px solid red;
+  border-right: 0px;
+  border-left:0ch;
   display: block;
-  border-radius: 50px;
+  /* border-radius: 5px; */
   width: 45%;
-  margin: 10px auto;
-
+  /* margin: 0px 200px; */
+  position: sticky;
+  top:0px;
+  left:200px;
   }
 .navbar{
   display: block;
@@ -46,5 +49,7 @@
   color: black;
   cursor: pointer;
   background-color: aqua;
-
+}
+.navbar li option{
+  display: inline;
 }
