@@ -1,8 +1,10 @@
-.header{
+/*.header{
   background-image: url(https://www.boat-lifestyle.com/cdn/shop/files/AD1412_600x.png?v=1690363019);
-  opacity: 0.5;
-
-}
+   opacity: 0.5; 
+  align-self: center;
+height: 100%;
+width: 100%;
+}*/
 .left{
   border-radius: 30px;
   margin:45px 20px;
@@ -16,8 +18,8 @@
   display: block;
   /* border-radius: 5px; */
   width: 50%;
-  /* margin: 0px 200px; */
-  position: sticky;
+  margin: 50px auto;
+  position:  absolute;
   top:0px;
   left:200px;
   }
@@ -53,4 +55,8 @@
 }
 .navbar li option{
   display: inline;
+}
+.social span{
+  display: inline-block;
+ justify-content: baseline;
 }
