@@ -1,7 +1,8 @@
-/*.header{
+.header{
   background-image: url(https://www.boat-lifestyle.com/cdn/shop/files/AD1412_600x.png?v=1690363019);
   opacity: 0.5;
-}*/
+
+}
 .left{
   border-radius: 30px;
   margin:45px 20px;
@@ -14,7 +15,7 @@
   border-left:0ch;
   display: block;
   /* border-radius: 5px; */
-  width: 45%;
+  width: 50%;
   /* margin: 0px 200px; */
   position: sticky;
   top:0px;
