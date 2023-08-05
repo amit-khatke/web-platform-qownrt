@@ -66,7 +66,8 @@ body{
   display: flex;
   border: 2px solid black;
   position:relative;
-  background-color: yellowgreen;
+  color: yellow;
+  background-color:darkolivegreen;
   top: 1435px;
   align-items: center;
   justify-content: center;
@@ -93,4 +94,35 @@ body{
 }
 .tsocial{
   font-family: italic;
+}
+.sub-conta{
+  display: flex;
+  border: 2px solid pink;
+  height: 500px; 
+  flex-direction: column; 
+  padding: 30px 30px;
+  background-color:lightblue;
+  
+}
+.head{
+  font-size:70px;
+  /* border: 1px solid red; */
+  height: 178px;
+}
+.sub-head{
+  font-size: 30px;
+  /* margin-top: 180px; */
+  text-align: left;
+  /* border: 1px solid red; */
+}
+.conta-button{
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  color: white;
+  background-color:black;
+  margin: 25px 20px;
+}
+.conta-button:hover{
+  background-color:blue ;
 }
