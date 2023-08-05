@@ -1,6 +1,7 @@
 body{
-  border:2px solid red;
-  height: 1700px;
+  /* border:2px solid red; */
+  /* height: 1700px; */
+  background-color: black;
 }
 .header{
   background-color:aqua;
@@ -8,7 +9,7 @@ body{
   
 }
 .left{
-  border-radius: 30px;
+  /* border-radius: 30px; */
   margin:45px 20px;
   padding:1px;
 }
@@ -53,7 +54,7 @@ body{
 .login:hover{
   color: black;
   cursor: pointer;
-  background-color: aqua;
+  background-color:yellow;
 }
 .navbar li option{
   display: inline;
@@ -68,7 +69,7 @@ body{
   position:relative;
   color: yellow;
   background-color:darkolivegreen;
-  top: 1435px;
+  top: 300px;
   align-items: center;
   justify-content: center;
   padding: 0%;
@@ -97,23 +98,22 @@ body{
 }
 .sub-conta{
   display: flex;
-  border: 2px solid pink;
+  /* border: 2px solid pink; */
   height: 500px; 
   flex-direction: column; 
-  padding: 30px 30px;
+  /* padding: 30px 30px; */
   background-color:lightblue;
   
 }
 .head{
-  font-size:70px;
-  /* border: 1px solid red; */
-  height: 178px;
+  margin: 10px 800px;
+  font-size:50px;
+  /* height: 178px; */
 }
 .sub-head{
+  margin: 20px 800px;
   font-size: 30px;
-  /* margin-top: 180px; */
-  text-align: left;
-  /* border: 1px solid red; */
+  /* text-align: left; */
 }
 .conta-button{
   height: 25px;
@@ -121,8 +121,13 @@ body{
   border-radius: 10px;
   color: white;
   background-color:black;
-  margin: 25px 20px;
+  margin: 5px 800px;
 }
 .conta-button:hover{
   background-color:blue ;
+}
+.ima{
+  position:absolute;
+  margin: 0px 0px;
+  /* align-items: stretch; */
 }
