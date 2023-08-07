@@ -131,3 +131,9 @@ body{
   margin: 0px 0px;
   /* align-items: stretch; */
 }
+.conta-photos{
+  border: 2px solid red;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
