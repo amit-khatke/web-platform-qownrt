@@ -1,174 +1,73 @@
-body{
-  /* border:2px solid red; */
-  /* height: 1700px; */
-  background-color:black;
+body {
+  border: 5px solid red;
   height: 100vh;
   width: 100vw;
+  background-color: black;
 }
-.header{
-  background-color:aqua;
-  position: sticky;
-  
-}
-.left{
-  /* border-radius: 30px; */
-  margin:45px 20px;
-  padding:1px;
-}
-.mid{
-  color: black;
-  /* border: 10px solid red; */
-  border-right: 0px;
-  border-left:0ch;
-  display: block;
-  /* border-radius: 5px; */
-  width: 50%;
-  margin: 10px auto;
-  position:  absolute;
-  top:0px;
-  left:200px;
-  }
-
-.navbar{
-  display: block;
-}
-.navbar li{
-  display: inline-block;
-}
-.navbar li a{
-  color: black;
-  font-size: 24px;
-  text-decoration: none;
-  margin:20px 20px;
-  padding:5px 5px;
-}
-.navbar li:hover{
-  box-shadow: 2px red;
-  border: 2px solid black;
-}
-.right{
-  left: 1150px;
-  top:30px;
-  position:absolute;
-  display: inline-block;
-}
-.login{
-  height: 25px;
-  width: 70px;
-  border: 1px solid orange;
-  border-radius: 30px;
-}
-.login:hover{
-  color: black;
-  cursor: pointer;
-  background-color:yellow;
-  box-shadow:0.5px 0.5px 0.5px 0.5px red;
-}
-.navbar li option{
-  display: inline;
-  
-}
-.categories{
-  font-size: 25px;
-}
-.footer{
+.header {
   display: flex;
-  border: 2px solid black;
-  position:relative;
-  color: yellow;
-  background-color:blue;
-  top: 10px;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
-  padding: 0%;
-  /* flex:0 0 100%; */
-  max-width: 100%;
+  background-color: aqua;
+  height: 10vh;
+  width: 100vw;
+  margin: 1.5rem 0rem 0rem 0rem;
 }
-.social{
-  display: block;
+.left {
+  display: flex;
+  /* border:2px solid yellow; */
+  /* margin: 0px 0 0 10px; */
 }
-.social li{
-  display: inline-block;
+.mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: green; */
+  padding: 0.5rem;
+  height: 10vh;
+  width: 50vw;
 }
-.social li a{
-  padding: 10px 5px;
-  transition:all; /* Animation */
-  
-  width: 5px;
-  height: 5px;
+.navbar {
+  /* tab-size: 30px; */
+  /* background-color: white; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  height: 7vh;
+  width: 50rem;
 }
-.social li:hover{
-  transform: scale(2);
-  zoom: 3px;
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  /* border: 5px yellow; */
+  /* background-color: yellow; */
+  width: 35vw;
+  height: 10vh;
+  padding: 0 1rem;
+  margin: 0 1rem;
 }
-.tsocial{
-  font-family: italic;
+.login {
+  display: flex;
+  flex-direction: column;
+  /* background-color: blueviolet; */
+  justify-content: flex-end;
+  align-items: center;
+  /* padding: 0 1rem; */
+  margin: 0 0.5rem;
+  border-radius: 30px;
+  background-color: #eee;
+}
+.login:hover {
+  background-color: yellow;
 }
 .sub-conta{
   display: flex;
-  height: 500px; 
-  flex-direction: column; 
-  background-color:lightblue;
-  animation-name: sub-conta;
-  animation-duration: 3s;
-}
-@keyframes sub-conta{
-  from{height: 10px;
-  width: 10px;}
-  to{
-    height: 500px;
-  }
-}
-.head{
-  margin: 10px 800px;
-  font-size:50px;
-  /* height: 178px; */
-}
-.sub-head{
-  margin: 20px 800px;
-  font-size: 30px;
-  /* text-align: left; */
-}
-.conta-button{
-  height: 25px;
-  width: 100px;
-  border-radius: 10px;
-  color: white;
-  background-color:red;
-  margin: 5px 800px;
-}
-.conta-button:hover{
-  background-color:red ;
-}
-.ima{
-  position:absolute;
-  margin: 0px 0px;
-  /* align-items: stretch; */
-}
-.conta-photos{
-  margin: 2rem 0px 0px 0px;
-  /* border: 2px solid red; */
-  color: white;
-  display: flex;
-  flex-direction: column;
-}
-.gallery{
-  display: flex;
   flex-direction: row;
-  justify-content:space-evenly;
-  align-items: center;
-  height: 200px;
-  width: auto;
-  background-color:black;
-  border: 2px solid green;
-}
-.shadow{
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  flex-direction: row;
-}
-.shadow :hover{
-  
-  box-shadow: 2px 2px 2px 2px aqua;
+  background-color: skyblue;
 }
