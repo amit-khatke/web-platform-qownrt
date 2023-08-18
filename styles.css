@@ -134,7 +134,7 @@ body{
   width: 100px;
   border-radius: 10px;
   color: white;
-  background-color:black;
+  background-color:red;
   margin: 5px 800px;
 }
 .conta-button:hover{
@@ -147,7 +147,7 @@ body{
 }
 .conta-photos{
   margin: 2rem 0px 0px 0px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   color: white;
   display: flex;
   flex-direction: column;
@@ -159,6 +159,16 @@ body{
   align-items: center;
   height: 200px;
   width: auto;
-  background-color:darkkhaki;
+  background-color:black;
   border: 2px solid green;
+}
+.shadow{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+}
+.shadow :hover{
+  
+  box-shadow: 2px 2px 2px 2px aqua;
 }
